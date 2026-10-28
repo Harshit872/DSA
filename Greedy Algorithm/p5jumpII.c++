@@ -19,16 +19,14 @@ int jump(vector<int>& nums){
 }
 
 int main() {
-    Solution solution;
-    
     // Test Case 1: Minimum jumps to reach end is 2 (index 0 -> 1 -> 4)
     vector<int> nums1 = {2, 3, 1, 1, 4};
     
     // Test Case 2: Minimum jumps to reach end is 2 (index 0 -> 1 -> 4)
     vector<int> nums2 = {2, 3, 0, 1, 4};
 
-    cout << "Test Case 1: " << solution.jump(nums1) << " jumps" << endl;
-    cout << "Test Case 2: " << solution.jump(nums2) << " jumps" << endl;
+    cout << "Test Case 1: " <<jump(nums1) << " jumps" << endl;
+    cout << "Test Case 2: " <<jump(nums2) << " jumps" << endl;
 
     return 0;
 }
